@@ -18,3 +18,9 @@ export let data;
 		</div>
 	{/each}
 
+<a href="/blog">Some</a>
+
+{#each data.images as image }
+	<img src={image.image} alt={image.alt} />
+
+{/each}
