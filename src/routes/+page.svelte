@@ -1,15 +1,20 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script>
+export let data;
+</script>
 
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-5">
-		<h1 class="h1">Let's get cracking bones!</h1>
-		<p>Start by exploring:</p>
-		<ul>
-			<li><code class="code">/src/routes/+layout.svelte</code> - barebones layout</li>
-			<li><code class="code">/src/app.postcss</code> - app wide css</li>
-			<li>
-				<code class="code">/src/routes/+page.svelte</code> - this page, you can replace the contents
-			</li>
-		</ul>
-	</div>
-</div>
+<!-- These are all the columns you can use, will populate more later -->
+{#each data.blogs as blog}
+		<div class="blog">
+			<!-- Title of blog -->
+				<h2>{blog.title}</h2>
+				<!-- Short summary, not sure if you want to use this much or not. Good for cards and when clicked, shows blogpost -->
+				<p>{blog.summary}</p>
+				<!-- Full blog post -->
+				<p>{blog.blogpost}</p>
+				<!-- Categories, We have Tech, Ai, Development, Software Engineering and Web Development  -->
+				<p>{blog.category}</p>
+				<!-- Self explanatory -->
+				<p>{blog.datecreated}</p>
+		</div>
+	{/each}
+
