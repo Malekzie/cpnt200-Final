@@ -1,3 +1,6 @@
+<script>
+
+</script>
 <div class="flex items-center justify-center h-screen mx-auto my-7 bg-slate-700">
   <div class="w-1/2 m-5">
     <h1 class="m-4 text-5xl">AI Daily News</h1>

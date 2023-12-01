@@ -14,11 +14,6 @@
   <Header />
   </svelte:fragment>
 
-
-  <a href="/">Home</a>
-  <a href="/pageone">One</a>
-  <a href="/pagetwo">Two</a>
-  <a href="/pagethree">Three</a>
   <slot />
 
   <!-- Footer -->
