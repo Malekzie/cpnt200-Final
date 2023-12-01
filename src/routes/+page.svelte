@@ -1,5 +1,7 @@
 <script>
 export let data;
+
+import Home from '$lib/Home.svelte';
 </script>
 
 <!-- These are all the columns you can use, will populate more later -->
@@ -19,3 +21,5 @@ export let data;
 	{/each} -->
 
 <!-- Dynamic Routing test -->
+
+<Home />
