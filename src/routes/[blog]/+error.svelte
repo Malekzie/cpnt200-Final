@@ -6,6 +6,7 @@
 <p>Use this checklist to find the problem through process of elimination</p>
 <ul>
     <li>Have you checked if you linked the page properly?</li>
+    <li>Were the routings correct?</li>
     <li>Was an import wrong?</li>
     <li>Check spelling/capitalization</li>
 </ul>

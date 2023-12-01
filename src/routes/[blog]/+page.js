@@ -1,4 +1,6 @@
 /** @type {import('./$types').PageLoad} */
 export async function load() {
-    return {};
+    if (error) {
+        throw new Error('Error loading page');
+    }
 };
