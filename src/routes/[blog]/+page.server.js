@@ -1,4 +1,11 @@
-/** @type {import('./$types').PageServerLoad} */
-export async function load() {
-    return {};
+const greetings = {
+	pageone: 'hello!',
+	pagetwo: 'hallo!',
+	pagethree: 'bonjour!'
+};
+
+export async function load({ params }) {
+    return {
+        greeting: greetings[params.lang ?? 'pageone']
+    };
 };

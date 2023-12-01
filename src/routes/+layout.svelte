@@ -21,7 +21,15 @@
       </svelte:fragment>
     </AppBar>
   </svelte:fragment>
+<<<<<<< HEAD
   
+=======
+
+  <a href="/">Home</a>
+  <a href="/pageone">One</a>
+  <a href="/pagetwo">Two</a>
+  <a href="/pagethree">Three</a>
+>>>>>>> e7d013ed1787165536113ef1b397c2d50be2f2c1
   <slot />
 
   <!-- Footer -->
