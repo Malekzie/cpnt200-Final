@@ -1,4 +1,9 @@
-<footer>
+<script>
+  // Makes it possible to use icons from iconify
+  import Icon from '@iconify/svelte';
+</script>
+
+<footer class="flex justify-around">
   <div class="company-info">
     <h3>Company Name</h3>
     <p>123 Main Street, City, State, ZIP</p>
@@ -6,15 +11,15 @@
     <p>Email: info@example.com</p>
   </div>
   
-  <div class="social-media">
+  <div class="flex">
     <a href="/" target="_blank" rel="noopener noreferrer">
-      <img src="facebook-icon.png" alt="Facebook">
+      <Icon icon="ic:baseline-facebook" />
     </a>
     <a href="/" target="_blank" rel="noopener noreferrer">
-      <img src="twitter-icon.png" alt="Twitter">
+      <Icon icon="mdi:instagram" />
     </a>
     <a href="/" target="_blank" rel="noopener noreferrer">
-      <img src="instagram-icon.png" alt="Instagram">
+      <Icon icon="pajamas:twitter" />
     </a>
   </div>
 </footer>
