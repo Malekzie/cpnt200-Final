@@ -1,6 +1,6 @@
 <main class="flex justify-center items-center flex-col bg-gray-900 min-h-screen text-white">
   <div class="container max-w-md p-8 bg-gray-500 rounded-md shadow-md">
-    <h1 class="font-extrabold text-4xl mb-6">Connect With Us</h1>
+    <h1 class="text-4xl mb-6 font-chakraPetch">Connect With Us</h1>
 
     <form action="/submit_contact" method="post" class="space-y-4">
       <div class="space-y-2">

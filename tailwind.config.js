@@ -10,7 +10,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				rajdhani: ['Rajdhani', 'sans-serif'],
+				chakraPetch: ['Chakra Petch', 'sans-serif',],
 				lato: ['Lato', 'sans-serif'],
 			},
 		},
