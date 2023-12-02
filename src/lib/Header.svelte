@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-<header class="bg-gray-800 p-4 flex items-center justify-between">
-  <strong class="text-2xl font-extrabold text-white">AI Saga</strong>
-  <strong class="border border-white px-4 py-2 text-white">Open AI News</strong>
-  
-  <nav class="flex items-center space-x-6">
-      <a class="text-white hover:text-secondary-200" href="/">Home</a>
-      <a class="text-white hover:text-secondary-200" href="/tab1">Tab 1</a>
-      <a class="text-white hover:text-secondary-200" href="/tab2">Tab 2</a>
-  </nav>
-  
-</header>
-=======
 <section class="flex justify-between border border-solid bg-slate-700">
     <div class="p-5 border-r border-solid">
       <h1 class="text-5xl">AIS</h1>
@@ -30,4 +17,3 @@
       </ul>
     </div>
 </section>
->>>>>>> 58618a00f9211b2d149d98f52cf40829606a04b7
