@@ -1,8 +1,8 @@
 <script>
 export let data;
 
-import Home from '$lib/Home.svelte';
-import BlogCard from '../lib/BlogCard.svelte';
+import Home from '$lib/components/Home.svelte';
+import BlogCard from '../lib/components/BlogCard.svelte';
 </script>
 
 <Home />
