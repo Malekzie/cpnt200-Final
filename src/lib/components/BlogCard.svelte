@@ -6,7 +6,7 @@
 </script>
 
   
-    <div class="flex flex-row justify-betweens">
+    <div class="flex flex-row justify-between">
       <div class="m-5 w-[30rem] border border-solid p-5 rounded-xl">
         <div>
           <h1 class="text-5xl border-b border-solid">{title}</h1>
