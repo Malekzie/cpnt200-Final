@@ -2,7 +2,7 @@
 export let data;
 
 import Home from '$lib/Home.svelte';
-	import BlogCard from '../lib/BlogCard.svelte';
+import BlogCard from '../lib/BlogCard.svelte';
 </script>
 
 <Home />
@@ -12,9 +12,7 @@ import Home from '$lib/Home.svelte';
 	{#each data.blogs as blog}
 		<div class="flex flex-wrap justify-around">
 			<BlogCard title={blog.title} author={blog.author} date={blog.date} summary={blog.summary}/>
-			<BlogCard title={blog.title} author={blog.author} date={blog.date} summary={blog.summary}/>
 		</div>
 	{/each}
-	
 </section>
 
