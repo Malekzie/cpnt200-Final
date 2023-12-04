@@ -3,6 +3,7 @@
   export let author = "Blog Author Here";
   export let summary = "Blog Summary Here";
   export let date = "Blog Date Created Here";
+  export let link = "Blog Link Here";
 </script>
 
   
@@ -19,8 +20,7 @@
             </div>
         </div>
         <div class="flex justify-around">
-          <button type="button" class="btn variant-glass-primary">Button</button>
-          <button type="button" class="btn variant-glass-error">Button</button>
+          <button type="button" class="btn variant-glass-primary"><a href="{link}">Link</a></button>
         </div>
       </div>
     </div>
