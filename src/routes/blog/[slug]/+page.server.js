@@ -11,10 +11,10 @@ export async function load({ params }) {
   }
 
   return {
-    title: response.data[0].title,
-    author: response.data[0].author,
-    category: response.data[0].category,
-    blogpost: response.data [0]. blogpost,
-    datecreated: response.data[0]. datecreated
+    title: data[0].title,
+    author: data[0].author,
+    category: data[0].category,
+    blogpost: data[0].blogpost,
+    datecreated: data[0].datecreated,
   };
 }

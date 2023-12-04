@@ -1,8 +1,8 @@
 <script>
-  export let title = "Blog Title Here";
-  export let author = "Blog Author Here";
-  export let summary = "Blog Summary Here";
-  export let date = "Blog Date Created Here";
+  export let title;
+  export let author;
+  export let summary;
+  export let date;
 </script>
 
   
