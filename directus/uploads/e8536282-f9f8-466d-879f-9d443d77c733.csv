@@ -1,0 +1,6 @@
+id,first_name,last_name,birth_date,gender,salary,branch_id,super_id
+100,Jan,Levinson,1961-05-11,F,"$110,000.00",1,
+101,Michael,Scott,1964-03-15,M,"$75,000.00",2,100
+102,Josh,Porter,1969-08-05,M,"$78,000.00",3,100
+103,Angela,Martin,1971-06-25,F,"$63,000.00",2,101
+104,Andy,Bernard,1973-07-22,M,"$65,000.00",3,101
