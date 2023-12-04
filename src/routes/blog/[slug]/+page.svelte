@@ -1,5 +1,7 @@
 <script>
-	export let data;
+  export let data;
 </script>
 
-<p>{data.title}</p>
+{#each data.blogs as blog}
+  <h1>{blog.title}</h1>
+{/each}
