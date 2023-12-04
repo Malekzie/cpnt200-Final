@@ -1,10 +1,14 @@
-import { posts } from './data.js';
+import { supabase } from "$lib/supabaseClient";
 
-export function load() {
-	return {
-		summaries: posts.map((post) => ({
-			slug: post.slug,
-			title: post.title
-		}))
-	};
+export async function load() {
+  const { data, error } = await supabase
+    .from("blogs")
+    .select('*')
+  if (error) {
+    throw error;
+  }
+  return {
+    blogs: data ?? [],
+  };
+
 }
