@@ -8,12 +8,6 @@
     </div>
     <div class="p-5 border-l border-solid">
       <ul class="flex gap-5 mt-3 text-xl">
-        <a href="/blog" class="transition delay-50 hover:scale-110 hover:text-slate-400">
-          <li>Blogs</li>
-        </a>
-        <a href="/create" class="transition delay-50 hover:scale-110 hover:text-slate-400">
-          <li>Create Blog</li>
-        </a>
         <a href="contact" class="transition delay-50 hover:scale-110 hover:text-slate-400">
           <li>Contact</li>
         </a>
