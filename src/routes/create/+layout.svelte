@@ -1,7 +1,16 @@
 <script>
     /** @type {import('./$types').LayoutData} */
-    export let data;
+
+    import { AppShell } from '@skeletonlabs/skeleton';
+
 </script>
 
-
-<slot />
+<AppShell>
+    <!-- Header -->
+    <svelte:fragment slot="header">
+        
+    </svelte:fragment>
+  
+    <slot />
+  
+  </AppShell>
