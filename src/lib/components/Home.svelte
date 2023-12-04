@@ -1,7 +1,7 @@
 <script>
 
 </script>
-<div class="flex items-center justify-center h-screen mx-auto my-7 bg-slate-700">
+<div class="flex items-center justify-center h-screen mx-auto overflow-hidden my-7 bg-slate-700">
   <div class="w-1/2 m-5">
     <h1 class="m-4 text-5xl font-chakraPetch">AI Daily News</h1>
     <p class="m-4 text-2xl leading-relaxed font-lato">
