@@ -1,15 +1,17 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script>
+export let data;
 
-<div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-5">
-		<h1 class="h1">Let's get cracking bones!</h1>
-		<p>Start by exploring:</p>
-		<ul>
-			<li><code class="code">/src/routes/+layout.svelte</code> - barebones layout</li>
-			<li><code class="code">/src/app.postcss</code> - app wide css</li>
-			<li>
-				<code class="code">/src/routes/+page.svelte</code> - this page, you can replace the contents
-			</li>
-		</ul>
+import Home from '$lib/components/Home.svelte';
+import BlogCard from '../lib/components/BlogCard.svelte';
+</script>
+
+<Home />
+
+<section class="h-screen mt-[10rem]">
+	<h1 class="text-5xl text-center">Blogs</h1>
+	<div class="flex flex-wrap justify-around">
+			<BlogCard title={data.blogs[0].title} author={data.blogs[0].author} date={data.blogs[0].date} summary={data.blogs[0].summary} link="{data.blogs[0].slug}"/>
+			<BlogCard title={data.blogs[1].title} author={data.blogs[1].author} date={data.blogs[1].date} summary={data.blogs[1].summary} link="{data.blogs[1].slug}"/>
 	</div>
-</div>
+</section>
+
